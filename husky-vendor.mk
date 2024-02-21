@@ -87,7 +87,6 @@ PRODUCT_PACKAGES += \
     DiagMon \
     EuiccGoogle \
     HardwareInfo \
-    HealthIntelligenceStubPrebuilt \
     HotwordEnrollmentOKGoogleFUSIONPro \
     HotwordEnrollmentXGoogleFUSIONPro \
     OemDmTrigger \
@@ -2356,7 +2355,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/husky/proprietary/vendor/lib64/libril-aidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libril-aidl.so \
     vendor/google/husky/proprietary/vendor/lib64/libril_gfeature.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libril_gfeature.so \
     vendor/google/husky/proprietary/vendor/lib64/libril_sitril.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libril_sitril.so \
-    vendor/google/husky/proprietary/vendor/lib64/libpixelhealth.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpixelhealth.so \
     vendor/google/husky/proprietary/vendor/lib64/librtxproto_aidl-default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librtxproto_aidl-default.so \
     vendor/google/husky/proprietary/vendor/lib64/libsensorsuez.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensorsuez.so \
     vendor/google/husky/proprietary/vendor/lib64/libsit_oem.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsit_oem.so \
